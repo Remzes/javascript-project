@@ -1,0 +1,20 @@
+There are 6 pages:
+1) Home Page
+2) 'About the game' page
+3) 'Contact us/Customer service' page 
+4) 'Play Now!/Registration' page
+5) 'Media' page (Content will be choose later)
+6) ''
+
+http://www.battlefield.com/battlefield-4/bootcamp - good example of 'Get connected' feild
+
+
+Till wednesday we have to decide:
+1) Design of footer and header
+2) Choose 2-3 colors which will be often used on our page
+
+Homepage - till the Monday (Max deadline - wednesday, 3.30.2016)
+
+Sandeep + Mohit ----> Choose what you want
+Parth + Viktor ---->
+Decide on Monday, 21th - which pages we will do and 

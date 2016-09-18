@@ -1,0 +1,38 @@
+Web site header:
+
+1) Home page - ck 
+2) Registration - sandeep should choose it 
+3) Buy game now!!!
+http://www.battlefield.com/battlefield-4/buy - example of the buying the game
+3) About the Game - ck
+4) Customer Service 
+contains the next:
+	a) Form aplication to the future communication
+	b) Hyperlink for social media
+	http://www.battlefield.com/battlefield-4 - example at the of page
+5) Media (screenshots, wallpapers, videos ,etc.
+contains the next:
+	1) Screenshots
+	2) Videos
+	3) Wallpapers (optional)
+6) Premium
+	a) What are the advantages of premium account
+	b) Application form for the premium account
+	c) What is included in the premium account access
+	http://www.battlefield.com/battlefield-4/premium-membership - Example how to make it 
+
+https://www.warface.com/en/game - "About the Game" example page
+
+https://gface.com/ - example of 'Home page'
+http://vodkabears.github.io/vide/ - video as background
+
+media content
+https://www.warface.com/en/media?filter=screenshot#start - screenshots
+https://arma3.com/media/videos - videos
+
+http://combatarms.nexon.net/intro/ - 'Home page' another example
+
+FOOTER AND HEADER STYLE!!!!
+
+Good colors for web design - green - choose green shadow, white, black
+http://www.color-hex.com/color/00ff00 - shadow of green

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'old_stamperregular';
+    src: url('fonts/old_stamper-webfont.eot');
+    src: url('fonts/old_stamper-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/old_stamper-webfont.woff2') format('woff2'),
+    url('fonts/old_stamper-webfont.woff') format('woff'),
+    url('fonts/old_stamper-webfont.ttf') format('truetype'),
+    url('fonts/old_stamper-webfont.svg#old_stamperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rubber_stamp_letplain';
+    src: url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.eot');
+    src: url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.woff2') format('woff2'),
+    url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.woff') format('woff'),
+    url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.ttf') format('truetype'),
+    url('fonts/oldStamperLet/rubber_stamp_let_plain-webfont.svg#rubber_stamp_letplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.preload {
+    background-color: #fff;
+    transition: all ease-in-out 0.5s;
+    position: fixed;
+    z-index: 1002;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.inside-preload {
+    margin: 0 auto;
+    width: 1210px;
+}
+/*.prelImg {*/
+    /*position: absolute;*/
+    /*left: 13%;*/
+    /*top: 5%;*/
+    /*!*margin-left: -300px;*!*/
+    /*!*margin-top: -200px;*!*/
+/*}*/
+
+.preload.isload {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hide {
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(video/ocean.jpg) no-repeat;
+    background-size: cover;
+}
+.social-media {
+    width: 220px;
+    height: 60px;
+    float: right;
+    position: relative;
+    right: 15px;
+    bottom: 35px;
+}
+
+.gplus {
+    font-size: 50px;
+    color: gray;
+    transition: all 0.5s;
+}
+.gplus:hover {
+    color: #f00;
+}
+.twitter {
+    font-size: 50px;
+    color: gray;
+    transition: all 0.5s;
+}
+.twitter:hover {
+    color: #00bfff;
+}
+.facebook {
+    font-size: 50px;
+    color: gray;
+    transition: all 0.5s;
+}
+.facebook:hover {
+    color:blue;
+}
+.rss {
+    font-size: 50px;
+    color: gray;
+    transition: all 0.5s;
+}
+.rss:hover {
+    color: orange;
+}
+
+/*.rss {*/
+    /*display: inline-block;*/
+    /*width: 42px;*/
+    /*height: 40px;*/
+    /*background:url(../social-sprite-3.png) no-repeat;*/
+    /*background-position: -150px -42px;*/
+/*}*/
+
+.rss:hover {
+    background-position: -150px 0;
+}
+
+.game-label {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    top: 30px;
+    text-shadow: 0 0 15px white;
+    font-family: 'rubber_stamp_letplain', sans-serif;
+    font-size: 32px;
+    color: #f1f1f2;
+}
+.game-label h1 {
+    font-family: 'rubber_stamp_letplain', sans-serif;
+}
+ .button {
+     width: 350px;
+     margin: 0 auto;
+     position: relative;
+     top: 310px;
+     text-align: center;
+
+ }
+ .button a {
+     border: 5px white solid;
+     font-size: 30px;
+     color: white;
+     font-weight: bold;
+     text-transform: uppercase;
+     padding: 15px 40px 15px 40px;
+     transition: all ease-in-out 0.4s;
+     text-decoration: none;
+ }
+ .button a:hover {
+     border: 5px #5897e4 solid;
+     color: #000;
+     background-color: #5897e4;
+ }
+ .cueLists {
+     width: 800px;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+     color: white;
+     
+     top: 270px;
+     right: 40px;
+ }
+.cueLists ul li {
+    width:100%;
+    -ms-line-break:auto;
+    -webkit-line-break:auto;
+    line-break:auto;
+    font-size:32px
+}
+.cueLists ul{
+    width:100%
+}
+.cueLists ul{
+    display:block;
+    width:100%;
+    list-style:none
+}
+.cueLists ul li.fadein{
+    opacity:1;
+    transition: all ease-in-out 0.8s;
+}
+.cueLists ul li.wait{
+    display: none;
+}
+ul li.fadeout{
+    opacity:0;
+}
+
+
+footer {
+    position:fixed;
+    bottom:0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    font-size: 10px;
+}
+footer p {
+    position: relative;
+    top: 8px;
+}
